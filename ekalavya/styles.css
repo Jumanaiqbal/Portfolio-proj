@@ -7,7 +7,7 @@ body {
     background-size: cover;
     background-position: center; 
     color: black; 
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x: hidden; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,11 +24,11 @@ body::before {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); 
     z-index: -1; 
-    transition: background-color 0.3s ease; /* Add transition effect */
+    transition: background-color 0.3s ease; 
 }
 
 body:hover::before {
-    background-color: rgba(0, 0, 0, 0.7); /* Change background color on hover */
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 nav {
@@ -77,13 +77,13 @@ header {
 header h1 {
     font-size: 3em; 
     margin-bottom: 15px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 header p {
     font-size: 1.5em; 
     margin-top: 0;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 }
 
 section {
@@ -96,7 +96,7 @@ section {
     background-color:#fff5d3f8 ; 
     border-radius: 8px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    width: 60% ;/* Change width to 100% */
+    width: 60% ;
     opacity: 0.9;
 
 }
@@ -108,7 +108,7 @@ section#about {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: min-content(auto);
     grid-gap: 20px;
-    place-items: center; /* Center the content */
+    place-items: center; 
 }
 
 section#about h2 {
@@ -134,7 +134,7 @@ section#about img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%; /* Change this value to make the container smaller */
+    width: 30%; 
     margin: 0 auto;
     padding: 20px;
     background-color: #d5ac3d;
@@ -158,7 +158,7 @@ form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    transition: border-color 0.3s ease; /* Add transition effect */
+    transition: border-color 0.3s ease;
 }
 
 form input[type="submit"] {
